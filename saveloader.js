@@ -1,5 +1,6 @@
 let storedclicks = localStorage.getItem("clicks");
 sessionStorage.setItem("sessionclicks", 0)
+window.loaderready = true
 
 if (storedclicks){
 console.log("Found save");
