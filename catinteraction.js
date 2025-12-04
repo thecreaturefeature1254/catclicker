@@ -2,7 +2,6 @@
 let check = setInterval(() => {
   if (window.loaderready) {
     clearInterval(check);
-    setupButton(); // run your code once ready
   }
 }, 100); // check every 100ms
 if (window.loaderready) {
